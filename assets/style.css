@@ -1,0 +1,191 @@
+/*****************************************************/
+/****General****/
+*
+{
+	margin:0px;
+	padding:0px;
+}
+body
+{
+	background:#FFF;
+	font-family:Arial, Geneva, sans-serif;
+    color:#000;
+}
+
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+img, table, tr, td
+{
+	border:0px;
+}
+h1
+{
+	text-align:center;
+	margin:0px;
+	padding:0px;
+}
+member
+{
+    font-weight:bold;
+	font-size:1.2em;
+}
+.clean
+{
+	clear:both;
+}
+.left
+{
+	text-align:left;
+}
+.center
+{
+	text-align:center;
+}
+input
+{
+	width:150px;
+	margin: 5px;
+}
+label
+{
+	width:200px;
+	display:inline-block;
+	vertical-align:top;
+	text-align:left;
+}
+table {
+  border-collapse: collapse;
+}
+ th {
+  background: #ccc;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background: #efefef;
+}
+
+tr:hover {
+  background: #d1d1d1;
+}
+/*****************************************************/
+/****Blocks****/
+/*.header
+{
+	margin:auto;
+	margin-top:10px;
+	padding:15px;
+	background:url('images/bluec_30p.png');
+	width:70%;
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
+	border-radius:20px;
+	text-align:center;
+}*/
+.content
+{
+	width:60%;
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
+	border-radius:20px;
+	margin:auto;
+	padding:20px;
+	margin-top:20px;
+}
+/*****************************************************/
+/****Content****/
+.big
+{
+	font-size:1.2em;
+    color:#FFFFFF;
+}
+.small
+{
+	font-size:0.7em;
+}
+.message
+{
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
+	border-radius:20px;
+	padding:20px;
+	margin:auto;
+	width:500px;
+	background:url('images/black_40p.png');
+	color:#ffffff;
+	font-weight:bold;
+	margin-top:20px;
+}
+.messages_table td
+{
+	border-top:1px solid #aaaaaa;
+	vertical-align:top;
+	text-align:left;
+}
+.author
+{
+	width:150px;
+	border-right:1px solid #aaaaaa;
+	text-align:left;
+}
+.title_cell
+{
+	width:20%;
+}
+.date
+{
+	font-style:italic;
+	text-align:right;
+	font-size:0.9em;
+	margin-right:10px;
+}
+.link_new_pm
+{
+	font-size:1.3em;
+	font-weight:bold;
+	margin:5px 0px 5px 0px;
+	display:inline-block;
+	background:#444444;
+	padding:5px;
+}
+.ui.menu {
+	border-radius: 0;
+}
+.ui.menu .item img.logo {
+	margin-right: 1.5em;
+}
+.main.container {
+	margin-top: 7em;
+}
+.wireframe {
+	margin-top: 2em;
+}
+.ui.footer.segment {
+	margin: 5em 0em 0em;
+	padding: 5em 0em;
+}
+.logo {
+	padding-right: 2px;
+}
